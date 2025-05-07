@@ -52,9 +52,9 @@ Ejecutar el back
 
 Entrar al directorio del frontend:
 
-cd frontend
+- cd frontend
 
-npm install
+- npm install
 
-npm run dev
+- npm run dev
 
