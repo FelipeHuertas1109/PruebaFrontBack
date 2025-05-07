@@ -37,14 +37,6 @@ pip install -r requirements.txt
 
 Crear un archivo .env en la raíz de /backend con las variables:
 
-SECRET_KEY=django-insecure-1yxj0o=4^_+xq$qr*x=mf7%fnmd^)%87em#1)ip+x1fk&i=27)
-DEBUG=True
-DB_NAME=postgres
-DB_USER=postgres.cbbfaajauexwgynfimsg
-DB_PASSWORD=securedatabase
-DB_HOST=aws-0-us-east-2.pooler.supabase.com
-DB_PORT=5432
-
 Aplicar migraciones
 python manage.py migrate
 
