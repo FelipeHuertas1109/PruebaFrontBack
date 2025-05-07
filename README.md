@@ -31,22 +31,30 @@ Este proyecto es una aplicación web que permite **pre-registrar, identificar y 
 ## 🚀 Cómo levantar el proyecto localmente
 
 ### 🔧 Backend (Django)
-python -m venv venv
-source venv\Scripts\activate     
-pip install -r requirements.txt
+
+- python -m venv venv
+
+- source venv\Scripts\activate
+
+- pip install -r requirements.txt
 
 Crear un archivo .env en la raíz de /backend con las variables:
 
 Aplicar migraciones
-python manage.py migrate
+
+- python manage.py migrate
 
 Ejecutar el back
-python manage.py runserver
+
+- python manage.py runserver
 
 🌐 Frontend (React / Next.js)
+
 Entrar al directorio del frontend:
-bash
+
 cd frontend
+
 npm install
+
 npm run dev
 
